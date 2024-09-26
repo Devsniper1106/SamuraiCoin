@@ -3,7 +3,7 @@ import { Calendar, Monitor, Mail, UserPlus } from "lucide-react"
 export default function AccountCreation() {
   return (
     <div className=" text-white p-8">
-      <div className="max-w-4xl mx-auto">
+      <div className=" mx-auto">
         <h2 className="text-red-500 text-center text-lg mb-2">Signing Up</h2>
         <h1 className="text-4xl font-bold text-center mb-8">Create Your Samurai Coin Account</h1>
         
@@ -42,8 +42,8 @@ function Step({ icon, title, description }: { icon: React.ReactNode, title: stri
       <div className="bg-red-900 rounded-full p-4 mb-4">
         {icon}
       </div>
-      <h3 className="text-lg font-semibold mb-2">{title}</h3>
-      <p className="text-sm text-gray-400">{description}</p>
+      <h3 className="text-[22px] font-semibold mb-2">{title}</h3>
+      <p className="text-[16px] text-gray-400">{description}</p>
     </div>
   )
 }
