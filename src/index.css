@@ -32,10 +32,10 @@ code {
 .background-image{
   background-image: url('./assets/images/Group 47276.png'); /* Update the path to your image */
   background-size: cover;
-  background-position: center;
+  background-position: top;
  /* height: 7991px; */
   /*  width: 1440px; */
   height:auto;
-  position:absolute
+  position:absolute;
   /* width: fit-content; */
 }
