@@ -2,7 +2,7 @@ import { Coins, Gamepad2, Users } from "lucide-react"
 
 export default function SamuraiCoinInfographic() {
   return (
-    <div className="bg-gray-900 text-white p-8 rounded-lg">
+    <div className=" text-white p-8 rounded-lg">
       <h2 className="text-red-500 text-center text-lg mb-2">How The Samurai Coin Works</h2>
       <h1 className="text-4xl font-bold text-center mb-12">Using Samurai Coin</h1>
       

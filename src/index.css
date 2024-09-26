@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,6 +15,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
+/* background.css */
+.background-image1 {
+  background-image: url('./assets/images/background1.png'); /* Update the path to your image */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.background-image2 {
+  background-image: url('./assets/images/background2.png'); /* Update the path to your image */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.background-image{
+  background-image: url('./assets/images/Group 47276.png'); /* Update the path to your image */
+  background-size: cover;
+  background-position: center;
+ /* height: 7991px; */
+  /*  width: 1440px; */
+  height:auto;
+  position:absolute
+  /* width: fit-content; */
+}

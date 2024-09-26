@@ -2,7 +2,7 @@ import { Calendar, Monitor, Mail, UserPlus } from "lucide-react"
 
 export default function AccountCreation() {
   return (
-    <div className="bg-gray-900 text-white p-8">
+    <div className=" text-white p-8">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-red-500 text-center text-lg mb-2">Signing Up</h2>
         <h1 className="text-4xl font-bold text-center mb-8">Create Your Samurai Coin Account</h1>

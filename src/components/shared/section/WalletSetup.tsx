@@ -22,7 +22,7 @@ const data = [
 
 export default function WalletSetup() {
   return (
-    <div className="bg-gray-900 text-white p-8">
+    <div className=" text-white p-8">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-red-500 text-lg mb-2">Wallet Setup</h2>
         <h1 className="text-4xl font-bold mb-8">

@@ -53,7 +53,7 @@ const features = [
 
 export default function SamuraiCoinFeatures() {
   return (
-    <div className="bg-gray-900 text-white p-8">
+    <div className=" text-white p-20">
       <h1 className="text-4xl font-bold text-center mb-12">Why The Samurai Coin</h1>
       
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -73,13 +73,13 @@ export default function SamuraiCoinFeatures() {
 
 function FeatureCard({ icon, title, subtitle, description }: { icon: React.ReactNode; title: string; subtitle: string; description: string }) {
   return (
-    <div className="border border-red-500 rounded-lg p-6 flex flex-col items-center text-center">
+    <div className="border bg-[#1F1B1B] border-red-500 rounded-lg p-6 flex flex-col items-center text-center">
       <div className="bg-red-900 rounded-full p-4 mb-4">
         {icon}
       </div>
-      <h2 className="text-xl font-semibold mb-2">{title}</h2>
-      <h3 className="text-red-500 text-sm mb-4">{subtitle}</h3>
-      <p className="text-gray-400 text-sm">{description}</p>
+      <h2 className="text-[22px] w-2/3 font-semibold mb-2">{title}</h2>
+      <h3 className="text-red-500 text-[18px] mb-4">{subtitle}</h3>
+      <p className="text-white text-[16px]">{description}</p>
     </div>
   );
 }
