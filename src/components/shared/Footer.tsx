@@ -18,6 +18,7 @@ export default function Footer() {
               <a href="#" aria-label="LinkedIn"><Linkedin className="w-6 h-6" /></a>
               <a href="#" aria-label="Send"><Send className="w-6 h-6" /></a>
               <a href="#" aria-label="WhatsApp"><WhatsApp className="w-6 h-6" /></a>
+              dsf
             </div>
           </div>
           <div>
