@@ -76,7 +76,7 @@ function FeatureCard({ icon, title, subtitle, description }: { icon: React.React
     <div className="border bg-[#1F1B1B] border-red-500 rounded-lg p-6 flex flex-col items-center text-center">
       <div className="bg-red-900 rounded-full p-4 mb-4">
         {icon}
-       sdfsfdsfds
+      
       </div>
       <h2 className="text-[22px] w-2/3 font-semibold mb-2">{title}</h2>
       <h3 className="text-red-500 text-[18px] mb-4">{subtitle}</h3>
